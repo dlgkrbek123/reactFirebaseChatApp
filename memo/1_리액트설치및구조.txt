@@ -1,0 +1,20 @@
+- npx로 create-react-app 명령
+- npm run start로 로컬 개발
+  
+npx create-react-app ./
+
+
+- 채팅앱은 실시간 처리가 중요
+- firebase를 백엔드로 사용 ( 웹소켓 활용 )
+- rest는 기본적으로 refresh가 필요 ( 단방향 )
+- 웹소켓은 refresh없이 서버의 브로드캐스팅에 의해 갱신
+
+
+- firebase
+- 모바일과 웹을 위한 구글에서 개발된 플랫폼
+- 인증 / db / 저장소 / 푸시알림 / 배포 같은 부분은 항상 필요
+- 파이어베이스를 이용해서 쉽게 구현
+
+
+- db가 특이하다, rdbms가 아닌 noSql 기반의 db
+- rtsp라는 프로토콜을 지원한다. ( 실시간으로 데이터를 전송 )
